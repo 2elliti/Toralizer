@@ -82,5 +82,4 @@ struct proxy_response{
 
 typedef struct proxy_response Res;
 
-Req *request(struct sockaddr_in* );
-int connect(int , const struct sockaddr *,socklen_t);
+int main(int,char**);
